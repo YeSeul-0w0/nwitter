@@ -10,7 +10,7 @@ const Profile = ({userObj, refreshUser}) => {
 
   const onLogOutClick = () => {
     authService.signOut();
-    history("/");
+    history("/nwitter");
   }
 
   const onChange = (event) => {
